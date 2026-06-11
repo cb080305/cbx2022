@@ -19,5 +19,20 @@
 <h1><font color="blue">你好 徐传斌！</font></h1>
 <img src=b.jpg>
 <a href="README.MD">cbx Readme.md 你好</a>
+
+<div id="dplayer"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
+
+<script>
+
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    video: {
+        url: './output.hd.mz.320P.AAA.mp4',
+    },
+});
+
+</script>
+
 </body>
 </html>
