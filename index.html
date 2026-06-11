@@ -4,12 +4,13 @@
 
 <!-- <canvas width="320" height="640"> -->
 <center>
-<!--<div style="width:320px; height:426px">-->
-<div>
+<div style="width:320px; height:426.5px">
 <!--<video src="./output.hd.mz.320P.AAA.mp4" poster="cb.jpg" loop autoplay muted controls>-->
 <video src="./output.hd.mz.320P.AAA.mp4" poster="cb.jpg" loop controls>
+  <!--
   <width="320px">
   <height="426.5px">
+  -->
   <h2>我们很抱歉！您的浏览器<strong>不支持video标签</strong></h2>
   <a href="a.jpg">cbx1981点击这里下载浏览器</a>
 </video>
@@ -34,6 +35,7 @@ const dp = new DPlayer({
     container: document.getElementById('dplayer'),
     video: {
         url: './output.hd.mz.320P.AAA.mp4',
+        pic: 'cb.jpg',
     },
 
 contextmenu: [
