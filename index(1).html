@@ -46,7 +46,8 @@
 document.oncontextmenu=false
 const dp = new DPlayer({
     container: document.getElementById('dplayer'),
-
+    autoplay: true,
+    mutex: true,
     theme: #FADFA3,
     video: {
         url: './output.hd.mz.320P.AAA.mp4',
@@ -64,11 +65,11 @@ highlight: [
   {
       time: 6,
       text: '这是第 6 秒',
-  }
+  },
 
-    { time: 15, text: '播放到 第 15 秒', }
-    { time: 22, text: '到了第 22 秒', }
-    { time: 29, text: '当前位置是 第 29 秒', }
+    { time: 15, text: '播放到 第 15 秒', },
+    { time: 22, text: '到了第 22 秒', },
+    { time: 29, text: '当前位置是 第 29 秒', },
   ],
 
 });
