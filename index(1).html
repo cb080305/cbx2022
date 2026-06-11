@@ -2,7 +2,7 @@
 <style>
   #cbVideo, #dplayer {
     width: 426.6px;
-    height: 568.6px;
+    height: 468.6px;
   }
 </style>
 <body bgcolor=#66ffcc oncontextmenu="return true">
@@ -46,8 +46,7 @@
 document.oncontextmenu=false
 const dp = new DPlayer({
     container: document.getElementById('dplayer'),
-    autoplay: true,
-    mutex: true,
+
     theme: #FADFA3,
     video: {
         url: './output.hd.mz.320P.AAA.mp4',
@@ -75,6 +74,8 @@ highlight: [
     { time: 22, text: '到了第 22 秒', },
     { time: 29, text: '当前位置是 第 29 秒', },
   ],
+    autoplay: true,
+    mutex: true,
 -->
   
 </body>
