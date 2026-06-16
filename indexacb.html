@@ -1,1 +1,85 @@
+<html>
+<style>
+  #cbVideo, #dplayer {
+    width: 426.6px;
+    height: 468.6px;
+  }
+  body{
+    
+  }
+</style>
+<body oncontextmenu="return true">
+<img src=a.jpg>
+<!-- 
+  #cbVideo, #dplayer {
+    width: 320px;
+    height: auto;
+  }
+   -->
+<!-- <canvas width="320" height="640"> -->
+<center>
+<!--<div style="width:320px; height:426.5px">-->
+<div>
+<!--<video src="./output.hd.mz.320P.AAA.mp4" poster="cb.jpg" loop autoplay muted controls>-->
+<video id="cbVideo" src="./output.hd.mz.320P.AAA.mp4" poster="cb.jpg" loop controls>
+  <!--
+  <width="320px">
+  <height="426.5px">
+  -->
+  <h2>我们很抱歉！您的浏览器<strong>不支持video标签</strong></h2>
+  <a href="a.jpg">cbx1981点击这里下载浏览器</a>
+</video>
+</div>
+</center>
+<!--</canvas>-->
 
+<h1><font color="blue">你好 徐传斌！index(1).html</font></h1>
+
+<img src=b.jpg>
+
+<!--
+<a href="README.MD">cbx Readme.md 你好</a>
+-->
+
+<!--<div id="dplayer" style="width:640px; height:853px; background-color: blue"></div>-->
+<div id="dplayer" style="background-color: blue"></div>
+<script src="https://cdn.bootcdn.net/ajax/libs/dplayer/1.27.1/DPlayer.min.js"></script>
+
+<script>
+document.oncontextmenu=false
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    video: {
+        url: './output.hd.mz.320P.AAA.mp4',
+        pic: 'cb.jpg',
+    },
+
+
+  contextmenu: [
+        {
+            text: 'cbx自己的菜单',
+            link: 'https://cb080305.github.io/cbx2022/a.jpg',
+        },
+    ],
+
+});
+
+</script>
+
+<!--
+highlight: [
+  {
+      time: 6,
+      text: '这是第 6 秒',
+  },
+    { time: 15, text: '播放到 第 15 秒', },
+    { time: 22, text: '到了第 22 秒', },
+    { time: 29, text: '当前位置是 第 29 秒', },
+  ],
+    autoplay: true,
+    mutex: true,
+    theme: #FADFA3,
+-->
+  
+</body>
+</html>
