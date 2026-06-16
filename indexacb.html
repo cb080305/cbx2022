@@ -2,10 +2,7 @@
 <style>
   #cbVideo, #dplayer {
     width: 426.6px;
-    height: 468.6px;
-  }
-  body{
-    
+    height: 568.6px;
   }
 </style>
 <body oncontextmenu="return true">
@@ -33,7 +30,7 @@
 </center>
 <!--</canvas>-->
 
-<h1><font color="blue">你好 徐传斌！index(1).html</font></h1>
+<h1><font color="blue">你好 徐传斌！index2.html</font></h1>
 
 <img src=b.jpg>
 
@@ -49,6 +46,8 @@
 document.oncontextmenu=false
 const dp = new DPlayer({
     container: document.getElementById('dplayer'),
+    autoplay: true,
+    mutex: true,
     video: {
         url: './output.hd.mz.320P.AAA.mp4',
         pic: 'cb.jpg',
@@ -61,6 +60,16 @@ const dp = new DPlayer({
             link: 'https://cb080305.github.io/cbx2022/a.jpg',
         },
     ],
+
+highlight: [
+  {
+      time: 6,
+      text: '这是第 6 秒',
+  },
+    { time: 15, text: '播放到 第 15 秒', },
+    { time: 22, text: '到了第 22 秒', },
+    { time: 29, text: '当前位置是 第 29 秒', },
+  ],
 
 });
 
