@@ -10,7 +10,7 @@
     * 徐传斌
       * 你好cctv
 
-> 所以，你要实现文字颜色，统一用**<span style="color:blue;">**就行，不要用 color="blue" 这种属性写法。  
+> 所以，你要实现文字颜色，统一用:**\<span style="color:blue;"\>**就行，不要用 color="blue" 这种属性写法。  
 > 你好**这是引用的文本**内容
 
 1. 项目一
