@@ -1,8 +1,9 @@
 # cbx2022
 # xu chuan bin 2022
-# 你好 徐传斌
+# ==你好 徐传斌==
 * [cbx央视网站](https://www.cctv.com)
-* [cb百度](https://www.baidu.com/ "百度搜索网站")
+* [cb百度](https://www.baidu.com/ "百度搜索网站")  
+<span style="background: #ffcc66;">你好我是蓝色字体，粉色背景</span>
 * aaa
   * aaa1
   * aaa2
@@ -10,7 +11,7 @@
     * 徐传斌
       * 你好cctv
 
-> 所以，你要实现文字颜色，统一用:**\<span style="color:blue;"\>**就行，不要用 color="blue" 这种属性写法。  
+> 所以，你要实现文字颜色，统一用 **\<span style="color:blue;"\>** 就行，不要用 color="blue" 这种属性写法。  
 > 你好**这是引用的文本**内容
 
 1. 项目一
@@ -20,3 +21,10 @@
    * 执行方案
 2. *第二个项目*
 3. 这是第三个项目
+
+```javascript
+function sayHello()
+{
+    console.log("Hello, GitHub!")
+}
+```
