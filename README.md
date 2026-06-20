@@ -5,9 +5,6 @@
 * [cb百度](https://www.baidu.com/ "百度搜索网站")  
 <span style="background: #ffcc66;">你好我是蓝色字体，粉色背景</span>
 <a href="https://www.cctv.com" title="cctv网站">我的链接网站</a>
-| **重要提示** |
-| :--- |
-| 这里是你的高亮内容，比如警告或说明。 |
 * aaa
   * aaa1
   * aaa2
