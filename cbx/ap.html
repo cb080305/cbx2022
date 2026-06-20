@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+	
+
+    <!-- 其他样式或 meta 标签 -->
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+
+</head>
+<body>
+
+<div x-data="{ show: false }" x-cloak>
+    <button @click="show = !show">切换淡入淡出</button>
+    
+    <!-- 默认包含缩放和透明度过渡，如果想纯淡入淡出，可加 .opacity 修饰符 -->
+    <div x-show="show" x-transition.opacity.duration.500ms 
+         class="mt-2 p-4 bg-blue-100 rounded">
+        你好，Alpine.js！<br/>
+		<img src="D:\220817png\cpan desktop\无标题a.png" title="cbx提示" width="auto" height="auto">
+		<img src="D:\220817png\cpan desktop\无标题a.jpg" title="abc" width="auto" height="auto">
+    </div>
+</div>
+
+</body>
+</html>
